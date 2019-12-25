@@ -626,9 +626,14 @@ a.service-btn:hover,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-position: center center; }
+  background-position: center center;
+  background-image: url("../images/home.jpg");
+}
   .site-blocks-cover.overlay {
     position: relative; }
+    .site-blocks-cover .opac {    
+        background-color: #ffffff54;     
+    }
     .site-blocks-cover.overlay:before {
       position: absolute;
       content: "";
@@ -650,8 +655,19 @@ a.service-btn:hover,
   .site-blocks-cover h1 {
     font-size: 3rem;
     font-weight: 400;
-    color: #fff;
+    color: #E24A3F;
     font-weight: 900; }
+    .site-blocks-cover h1 span {
+        color: #7ac24f;
+    }
+    .site-blocks-cover  canvas {
+        display: none;
+    }
+    @media screen and (min-width: 1100px)  {
+        .site-blocks-cover canvas {
+            display: block;
+        }
+    }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
         font-size: 2rem; } }
@@ -659,7 +675,7 @@ a.service-btn:hover,
     color: white;
     font-size: 1rem;
     line-height: 1.5;
-    font-weight: 300; }
+    font-weight: 500; }
   .site-blocks-cover .intro-text {
     font-size: 16px;
     line-height: 1.5; }
@@ -1435,7 +1451,11 @@ a.service-btn:hover,
   color: white; }
 
 .person h3 {
-  font-size: 18px; }
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+
+}
 
 .ul-social-circle {
   list-style: none;
