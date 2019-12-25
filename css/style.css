@@ -627,7 +627,7 @@ a.service-btn:hover,
   background-repeat: no-repeat;
   background-position: top;
   background-position: center center;
-  background-image: url("../images/home.jpg");
+  background-image: url("../images/home-bg.jpg");
 }
   .site-blocks-cover.overlay {
     position: relative; }
