@@ -100,12 +100,17 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+    padding-top: 2.5em;
+}
+
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
-  .site-section.site-section-sm {
-    padding: 4em 0; }
+        padding-top: 5em; 
+    } 
+}
+.site-section.site-section-sm {
+    padding-top: 4em;
+}
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -552,8 +557,16 @@ h1, h2, h3, h4, h5,
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
+  position: relative;
 }
-
+.opac {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .services h3.title-w3 span {
   color: #ff7f62;
 }
