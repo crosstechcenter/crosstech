@@ -1935,5 +1935,8 @@ h3.title-w3-2 {
   color: #f14f5e;
 }
 
+#team-section .person.text-center h3 {
+    color: #088A29;
+}
 /* //popup */
 /* //gallery */
