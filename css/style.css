@@ -1938,5 +1938,18 @@ h3.title-w3-2 {
 #team-section .person.text-center h3 {
     color: #088A29;
 }
-/* //popup */
-/* //gallery */
+
+.nav-link-language {
+    border-left: 1px solid;
+}
+.nav-link-language > span {
+    position: relative;
+    top: 1px;
+}
+.site-mobile-menu .nav-link-language {
+    border: none;
+}
+.site-mobile-menu .nav-link-language > span {
+    position: relative;
+    top: 2px;
+}
